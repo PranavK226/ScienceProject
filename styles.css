@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Roboto:wght@700;900&display=swap');
+
+/* Basic Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar Styles */
+nav {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    font-family: "Montserrat";
+}
+nav a:hover {
+    color: white;
+}
+#brand {
+    font-size: 24px;
+}
+.nav-link {
+    font-size: 18px;
+    margin-left: 50px;
+}
+.animated-link {
+    text-decoration: none;
+    position: relative;
+
+}
+.animated-link:hover {
+    color: white;
+}
+.animated-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    transform: scaleX(0.0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+.animated-link:hover::after {
+    color: white;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+/* Landing Page Styles */
+
+.landing {
+    padding: 30px 30px 0px 30px;
+    width: 100%;
+    height: 50vw;
+    background-image: url("./images/Bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+.landing h1 {
+    margin: auto;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 96px;
+    border-bottom: white solid 2px;
+}
+
+
+
+/* Overview Page Styles */
+.row, .col {
+    margin: 0px;
+}
+
+.card {
+    width: 30%;
+    border: none;
+    font-family: "Montserrat";
+}
+
+.overview {
+    text-align: center;
+    padding: 30px;
+}
+.overview h1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-size: 56px;
+}
+.cards {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 32px;
+}
+.card-subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.card-text {
+    font-size: 24px;
+}
+.no-padding {
+    padding-left: 0px;
+}
