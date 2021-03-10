@@ -53,6 +53,10 @@ nav a:hover {
     transform: scaleX(1);
     transform-origin: left;
 }
+.dropdown-menu-dark {
+    border-radius: 0px;
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+}
 /* Landing Page Styles */
 
 .landing {
