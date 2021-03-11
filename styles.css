@@ -123,3 +123,21 @@ h1 {
 .no-padding {
     padding-left: 0px;
 }
+                                
+/* Comparative Anatomy Styles */
+
+p {
+    font-size: 40px;
+    font-family: "Montserrat"
+}
+
+h2 {
+    font-size: 60px;
+    font-family: "Montserrat"
+}
+
+/* Embryology Styles */
+.wrapper {
+    width: 400px;
+    height: 100%;
+}
