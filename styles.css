@@ -6,7 +6,9 @@
     padding: 0;
     margin: 0;
 }
-
+.row {
+    padding: 0px;
+}
 /* Navbar Styles */
 nav {
     padding: 0px;
@@ -97,9 +99,10 @@ nav a:hover {
     padding: 30px;
 }
 h1 {
+    text-align: center;
     font-family: "Roboto";
     font-weight: 700;
-    padding-bottom: 30px;
+    padding: 30px 0px;
     font-size: 56px;
 }
 .cards {
@@ -129,31 +132,53 @@ h1 {
 .comparative-anatomy {
     background-color: rgb(0,0,0);
     color: white;
+    padding: 30px;
 }
-
-.comparative-anatomy p {
-    font-size: 40px;
-    font-family: "Montserrat";
+.types-of-structures, .examples-flaws {
+    display: flex;
+    justify-content: space-between;
 }
-
+.comparative-anatomy .col-4 {
+    width: 30%;
+}
+.comparative-anatomy .col-6 {
+    width: 48%;
+}
 h2 {
-    font-size: 60px;
-    font-family: "Montserrat"
+    font-size: 32px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+p {
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-bottom: 50px;
 }
 
 /* Embryology Styles */
-.wrapper {
-    width: 400px;
-    height: 100%;
+.early-embryology {
+    margin: 70px;
+    padding: 30px;
+    background-color: black;
+    color: white;
 }
-.wrapper .images {
-    height: 100%;
-    width: 100%;
+.content {
     display: flex;
+    justify-content: space-between;
+}
+.elfsight-app-200c0236-88e4-44b4-ba13-7b9d1e234e1d {
+    width: 48%;
+}
+.text {
+    width: 48%;
 }
 
-.img-1 {
-    height: 100%;
-    width: 100%;
-    background: url('./images/Bird.png');
+/* Conclusion Styles */
+.caption {
+    margin: 0;
+    font-size: 12px;
+}
+.Conclusion {
+    padding: 30px;
 }
